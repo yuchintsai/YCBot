@@ -13,7 +13,7 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
 )
 
-from config import *
+from config import * # 設定
 
 app = Flask(__name__)
 
